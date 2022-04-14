@@ -6,8 +6,9 @@
 	"engines": {
 		"vscode": "^1.66.0"
 	},
+	"homepage": "https://github.com/gotchapt/cucumber-formatter",
 	"categories": [
-		"Other"
+		"Formatters"
 	],
 	"activationEvents": [
 		"onCommand:cucumber-formatter.formatCucumberFeature"
