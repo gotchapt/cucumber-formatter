@@ -11,7 +11,7 @@ Automatically indent JSON and Graphql steps inside the currently opened `.featur
 
 ## Disclaimer
 
-This project extends the functionality of stale [cucumber-json-formatter](git@github.com:XavierLeTohic/cucumber-json-formatter.git) project.
+This project extends the functionality of stale [cucumber-json-formatter](https://github.com/XavierLeTohic/cucumber-json-formatter) project.
 
 ## Usage
 
