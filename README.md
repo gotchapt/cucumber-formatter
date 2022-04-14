@@ -51,7 +51,7 @@ After
 
 Before
 ```feature
-  Scenario: Should format JSON
+  Scenario: Should format GQL
     Given the following GQL query:
       """
 query getPotatoes($id: ID!) {
@@ -66,8 +66,8 @@ price
 
 After
 ```feature
-  Scenario: Should format JSON
-    Given the following JSON:
+  Scenario: Should format GQL
+    Given the following GQL query:
       """
       query getPotatoes($id: ID!) {
           potatoes(id: $id) {
