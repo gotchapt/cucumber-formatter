@@ -2,7 +2,7 @@
 	"name": "cucumber-formatter",
 	"displayName": "cucumber-formatter",
 	"description": "Indent Cucumber step contents inside .feature files",
-	"version": "0.0.1",
+	"version": "1.0.2",
 	"engines": {
 		"vscode": "^1.66.0"
 	},
