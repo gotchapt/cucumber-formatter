@@ -14,6 +14,7 @@
 		"type": "git",
 		"url": "github:gotchapt/cucumber-formatter"
 	},
+	"publisher": "telmodsg",
 	"activationEvents": [
 		"onCommand:cucumber-formatter.formatCucumberFeature"
 	],
