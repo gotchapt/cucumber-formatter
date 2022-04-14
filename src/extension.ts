@@ -53,10 +53,12 @@ export function activate(context: vscode.ExtensionContext) {
 					if (line[line.length - 1] === '{') {
 						currentSpaces += tabSize;
 					}
+				} else {
+					formatted = `${formatted}\n`;
 				}
 			}
 
-			return formatted;
+			return formatted.substring(1); // remove initial "\n"
 		};
 
 		const formattedContent = content.replace(regex, (match, offset, index) => {
