@@ -7,7 +7,7 @@ Automatically indent JSON and Graphql steps inside the currently opened `.featur
 
 [GitHub repository](https://github.com/gotchapt/cucumber-formatter)\
 [Create an issue](https://github.com/gotchapt/cucumber-formatter/issues/new)\
-[Write a review](https://marketplace.visualstudio.com/items?itemName=gotchapt.cucumber-formatter#review-details)
+[Write a review](https://marketplace.visualstudio.com/items?itemName=telmodsg.cucumber-formatter#review-details)
 
 ## Disclaimer
 
