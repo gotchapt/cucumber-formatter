@@ -45,11 +45,11 @@ export function activate(context: vscode.ExtensionContext) {
 			for (const line of lines) {
 				if (line) {
 					const trimmedLine = line.trim();
-					if (trimmedLine[0] === '}') {
+					if ((trimmedLine[0] === '}') || trimmedLine[0] === ')') {
 						currentSpaces -= tabSize;
 					}
 					formatted = `${formatted}\n${' '.repeat(currentSpaces)}${trimmedLine}`;
-					if (line[line.length - 1] === '{') {
+					if (line[line.length - 1] === '{' || line[line.length - 1] === '(') {
 						currentSpaces += tabSize;
 					}
 				} else {
